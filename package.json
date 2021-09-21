@@ -1,0 +1,30 @@
+{
+  "name": "web-tiff-editor",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "dev": "parcel src/index.html --port 3003 --hmr-port 30003",
+    "eslint": "npx eslint . --ext .ts --fix",
+    "prettier": "prettier --write './src/**/*.ts'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andormade/web-tiff-editor.git"
+  },
+  "author": "Andor Polgar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andormade/web-tiff-editor/issues"
+  },
+  "homepage": "https://github.com/andormade/web-tiff-editor#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "parcel": "^2.0.0-rc.0",
+    "prettier": "^2.4.1"
+  },
+  "dependencies": {
+    "@types/wicg-file-system-access": "^2020.9.4"
+  }
+}
